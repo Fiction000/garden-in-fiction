@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {% include head.html %}
 </head>
+
 <body>
     <header class="page-header">
-        <a href="/" class="page-header__logo" title="Go home">
-            <img src="/assets/avatar.png" alt="" width="48">
-        </a>
 
         <nav>
             <a href="/">Home</a>
-            <a href="/about">About Me</a>
-            <a href="/notes">Notes</a>
+            <a href="/about">CV</a>
+            <a href="https://eapfr.hatenablog.com/">Blog</a>
         </nav>
     </header>
     <main>
         {{content}}
+
+        <div class="container">
+            <div class="row">
+                <!-- Add font awesome icons -->
+                <div class="col-sm">
+                    <p>プロフィール</p>
+                    <a href="https://twitter.com/hastur_kato" class="fa fa-twitter"></a>
+                    <a href="https://github.com/Fiction000" class="fa fa-github"></a>
+                </div>
+                <div class="col-sm">
+
+                </div>
+            </div>
+        </div>
     </main>
-    
+
+
     <footer class="page-footer">
         <small>Copyright {{site.author}}</small>
     </footer>
 </body>
+
 </html>

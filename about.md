@@ -1,5 +1,6 @@
 ---
 layout: default
-title: About Me
+title: 経歴
 ---
-# About Me
+# 経歴
+
